@@ -1,0 +1,16 @@
+PODS:
+  - wow-util (0.1.0)
+
+DEPENDENCIES:
+  - wow-util (from `../`)
+
+EXTERNAL SOURCES:
+  wow-util:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wow-util: bb5161e54573aeb54a86d369ffdd16c4972ea042
+
+PODFILE CHECKSUM: 6fe38972617772fa69bfd21c41f821d9de59929b
+
+COCOAPODS: 1.1.0.rc.3
