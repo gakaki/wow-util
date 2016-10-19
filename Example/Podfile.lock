@@ -1,5 +1,16 @@
 PODS:
-  - wow-util (0.1.0)
+  - wow-util (0.1.0):
+    - YYImage/WebP
+    - YYWebImage
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
   - wow-util (from `../`)
@@ -9,8 +20,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  wow-util: bb5161e54573aeb54a86d369ffdd16c4972ea042
+  wow-util: 513631fb2ea6ca29687238de23ac4e29910eeef4
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 6fe38972617772fa69bfd21c41f821d9de59929b
+PODFILE CHECKSUM: a3be022f504c79a5de7e862b3c9df4f3971e285d
 
 COCOAPODS: 1.1.0.rc.3

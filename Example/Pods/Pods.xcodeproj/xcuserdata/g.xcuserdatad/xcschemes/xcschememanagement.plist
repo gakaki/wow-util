@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-wow-util_Tests.xcscheme</key>
+		<key>YYCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D7D2D829D1F9F7475DED6962EC5C437</key>
+		<key>0DBCAFEA369CB9DC2900B7036EDF433E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C04A1A3EF007C2D77D80F9407144326D</key>
+		<key>1A5B9F0357BAC9991BEFEB8980D87EC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC3640313CA6F4401DE433F55A47847B</key>
+		<key>47F4F5C290278D442C3EEF991A11B0CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97CB302AC78EEB92A49DC2A4F181CDDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C4D30215F41B0EE54A7FD2D5F72A9E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

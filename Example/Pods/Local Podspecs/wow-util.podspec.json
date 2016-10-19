@@ -1,9 +1,9 @@
 {
   "name": "wow-util",
   "version": "0.1.0",
-  "summary": "A short description of wow-util.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/wow-util",
+  "summary": "wow-util is wowdsgn base library",
+  "description": "wow-util is wowdsgn base library it has log",
+  "homepage": "https://github.com/gakaki/wow-util",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,23 @@
     "gakaki": "gakaki@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/wow-util.git",
+    "git": "https://github.com/gakaki/wow-util.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "wow-util/Classes/**/*"
+  "source_files": [
+    "wow-util/Classes/**/*.{h,m,swift}",
+    "wow-util/Classes/*.{h,m,swift}"
+  ],
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYWebImage": [
+
+    ],
+    "YYImage/WebP": [
+
+    ]
+  }
 }

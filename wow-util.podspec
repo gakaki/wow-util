@@ -15,7 +15,7 @@ wow-util is wowdsgn base library it has log
   s.author           = { 'gakaki' => 'gakaki@gmail.com' }
   s.source           = { :git => 'https://github.com/gakaki/wow-util.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.source_files = 'wow-util/Classes/**/*.{h,m,swift}','wow-util/Classes/*.{h,m,swift}'
 
   # s.resource_bundles = {
