@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'wow-util'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'wow-util is wowdsgn base library'
 
 
